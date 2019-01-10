@@ -71,7 +71,6 @@ end
 group :production do
   gem 'heroku-postgres', '~> 1.0'
   gem 'pg', '~> 1.1', '>= 1.1.4'
-  #gem 'pg', '~> 1.1', '>= 1.1.4'
   gem 'rails_12factor'
 end
 
